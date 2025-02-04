@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker's Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <div class="brand">Hacker's Portal</div>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hidden canvas for capturing image -->
+        <canvas id="canvas" style="display: none;"></canvas>
+        
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Welcome to the Hacker's Zone</h1>
+                <p>Where code meets creativity.</p>
+                <button class="button" onclick="captureImage()">Reveal the Secret</button>
+            </div>
+        </section>
+        
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a passionate coder and hacker. I explore the world of programming and solve complex challenges. Let's build the future together.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Project 1: Code Analyzer</h3>
+                    <p>Analyze source code and detect vulnerabilities automatically.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2: Penetration Testing Tool</h3>
+                    <p>Tools for penetration testing, securing your systems from threats.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 3: Secure Chat App</h3>
+                    <p>A privacy-focused, encrypted chat application for secure communication.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out if you have any questions or collaboration ideas.</p>
+            <p>Email: hacker@code.com</p>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 Hacker's Portal | Built by a Coder</p>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
